@@ -18,7 +18,7 @@ inherit qt4x11
 S = "${WORKDIR}/git/canmon"
 
 do_compile() {
-             rm moc_*.*
+             rm -f  moc_*.*
              qmake
              make
 }
