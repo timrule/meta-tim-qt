@@ -1,9 +1,9 @@
-include recipes-fsl/images/fsl-image-gui.bb
+include recipes-bsp/images/tim-imx28-bsp.bb
 
-CORE_IMAGE_EXTRA_INSTALL += " \
-        libsocketcan \
-        canutils \
-"
+#CORE_IMAGE_EXTRA_INSTALL += " \
+#        libsocketcan \
+#        canutils \
+#"
 
 IMAGE_INSTALL += " \
         helloworldqt \
